@@ -1,2 +1,2 @@
-# PDANet
-The implementation of "Learning Progressive Dual-Pixel Alignment for Defocus Deblurring".
+# DPANet
+The implementation of "Learning Dual-Pixel Alignment for Defocus Deblurring".
