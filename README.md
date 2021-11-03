@@ -2,7 +2,7 @@
 The implementation of "Learning Dual-Pixel Alignment for Defocus Deblurring".
 
 # Prerequisites  
-- The code has been test with following environment
+- The code has been tested with the following environment
   - Ubuntu 18.04
   - Python 3.7.9
   - PyTorch 1.7.0
@@ -16,7 +16,7 @@ The implementation of "Learning Dual-Pixel Alignment for Defocus Deblurring".
   - [DPDD test set](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel)
   - [PIXEL test set](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel)
 
-### Preparing (for DCNv2)
+### Preparation (for DCNv2)
 ```shell
 $ cd DPANet
 $ python setup.py build develop
