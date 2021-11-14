@@ -31,7 +31,10 @@ $ python test.py
 For more results, you can refer to [More results on DPDD](https://drive.google.com/drive/folders/1hxeq0j8T6h80rR5bGV-JUysyqnj61cBK?usp=sharing).
 
 # Train
-- First organize the training dataset according to our code implementation
+- First, crop the images of DPDD train set into 512*512 patches using the same settings as DPDNet. (You can use ```$ python ./image_to_patch_filter.py```from [DPDD](https://github.com/Abdullah-Abuolaim/defocus-deblurring-dual-pixel) to get the patches.)
+- After getting the training patches, please organize the training dataset according to our code implementation:
+```$ mkdir dpdd_datasets/dpdd_16bit```,
+then move the train/test folder into the directory just created.
 ### Start training
 ```shell
 $ cd DPANet
