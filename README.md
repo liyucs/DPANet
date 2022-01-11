@@ -40,3 +40,9 @@ then move the train/test folder into the directory just created.
 $ cd DPANet
 $ python train.py
 ```
+During training, we first train DPANet with MSE loss. After that, we choose the checkpoint that gives the best result among all the epochs (about 300 epochs, [example ckpt trained with MSE](https://drive.google.com/drive/folders/1B8ynZ-MIuPezsHKBt2w9DWRUDQQO52uw?usp=sharing)) and finetune it with Charbonnier loss.
+
+# Results
+Here we give results of different methods on DPDD and PIXEL datasets.
+  - [DPDD results](https://drive.google.com/drive/folders/1F0P24qFEdC3POO6wF8m7c17-0nKTsbvw?usp=sharing)
+  - [PIXEL results](https://drive.google.com/drive/folders/1F0P24qFEdC3POO6wF8m7c17-0nKTsbvw?usp=sharing)
